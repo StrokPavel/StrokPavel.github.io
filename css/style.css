@@ -22,17 +22,11 @@ body {
 }
 
 #name{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+}
 
-  color: rgb(45, 171, 30);
-  font-size: 35px;
-  margin: auto;
-}
-#ceo{
-  color: rgb(45, 171, 30);
-  font-size: 35px;
-  margin: auto;
-  text-decoration: inherit;
-}
 #info{
   color: rgb(45, 171, 30);
   font-size: 35px;
@@ -42,7 +36,7 @@ body {
 }
 
 #iconlink{
-  padding-top:100px;
+  padding-top: 50px;
   width: 300px;
   margin: auto;
 }
