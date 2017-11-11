@@ -2,7 +2,7 @@ body {
   text-align: center;
   padding-top: 12%;
   /*background-color: #4f3e5e;*/
-  background-image: : url(/img/background.jpg);
+  background: url(../img/background.jpg);
 }
 
 #content{
