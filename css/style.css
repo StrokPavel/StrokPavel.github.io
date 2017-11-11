@@ -2,13 +2,13 @@ body {
   text-align: center;
   padding-top: 12%;
   /*background-color: #4f3e5e;*/
-  background-color: rgb(41, 17, 120)
+  background-image: : url(/img/background.jpg);
 }
 
-#cont{
+#content{
   position: relative;
   text-align: center;
-  max-height: 200px;
+  max-height: 190px;
   max-width: 300px;
   margin: auto;
 }
@@ -27,16 +27,8 @@ body {
   margin: auto;
 }
 
-#info{
-  color: rgb(45, 171, 30);
-  font-size: 35px;
-  margin: auto;
-  text-decoration: inherit;
-  padding-top: 20px
-}
 
 #iconlink{
   padding-top: 50px;
   width: 300px;
-  margin: auto;
 }
