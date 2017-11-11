@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  padding-top: 12%;
+  /*background-color: #4f3e5e;*/
+  background-color: rgb(41, 17, 120)
+}
+
+#cont{
+  position: relative;
+  text-align: center;
+  max-height: 200px;
+  max-width: 300px;
+  margin: auto;
+}
+
+
+#img-up{
+  width: auto;
+  border-radius:15%;
+  height: 170px;
+  margin: auto;
+}
+
+#name{
+
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+}
+#ceo{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  text-decoration: inherit;
+}
+#info{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  text-decoration: inherit;
+  padding-top: 20px
+}
+
+#iconlink{
+  padding-top:100px;
+  width: 300px;
+  margin: auto;
+}
