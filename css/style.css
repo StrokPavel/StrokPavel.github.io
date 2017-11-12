@@ -1,8 +1,8 @@
 body {
   text-align: center;
-  padding-top: 12%;
+  padding-top: 20%;
   /*background-color: #4f3e5e;*/
-  background: url(../img/background.jpg);
+  background: url(../img/fon.jpg);
 }
 
 #content{
@@ -11,8 +11,8 @@ body {
   max-height: 190px;
   max-width: 300px;
   margin: auto;
+  padding-bottom: auto;
 }
-
 
 #img-up{
   width: auto;
@@ -21,14 +21,26 @@ body {
   margin: auto;
 }
 
-#name{
+#iconlink{
+  padding-top: 15px;
+  width: 300px;
+}
+
+.name {
   color: rgb(45, 171, 30);
   font-size: 35px;
   margin: auto;
+  padding-top: 15;
 }
 
+.link a:link{
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  padding-top: 15;
+  text-decoration: none;
+}
 
-#iconlink{
-  padding-top: 50px;
-  width: 300px;
+.link a:hover{
+  text-decoration: underline;
 }
