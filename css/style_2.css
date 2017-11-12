@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  /*background-color: #4f3e5e;*/
+  background: url(../img/fon.jpg);
+}
+
+.droplink {
+  color: rgb(43, 16, 4);
+  font-size: 30px;
+  text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 25px aqua, 0 0 20px blue, 0 0 25px purple;
+}
+
+.droplink li {
+  display:block;
+}
+
+.droplink ul a{
+  padding:0;
+  margin:0;
+}
+
+.droplink li a{
+  padding:0px 0px 4px 32px;
+  margin:2px;
+  display:block;
+  text-decoration: none;
+  font-size:12px;
+  background-repeat:no-repeat;
+  background-position: 10px 3px;
+}
+
+.droplink li a:hover {
+  background-color: #999;
+}

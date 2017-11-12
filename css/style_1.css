@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
   /*background-color: #4f3e5e;*/
   background: url(../img/fon.jpg);
 }
@@ -43,4 +43,8 @@ body {
 
 .link a:hover{
   text-decoration: underline;
+}
+
+.link a:visited{
+  color: rgb(45, 171, 30);
 }
