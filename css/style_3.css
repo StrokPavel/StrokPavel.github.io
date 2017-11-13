@@ -1,0 +1,16 @@
+body {
+  /*background-color: #4f3e5e;*/
+  background: url(../img/fon.jpg);
+}
+
+ul {
+  color: rgb(45, 171, 30);
+  list-style-type: disc;
+}
+
+ul h3 {
+  color: rgb(45, 171, 30);
+  font-size: 20px;
+  margin: auto;
+  padding-top: 15;
+}

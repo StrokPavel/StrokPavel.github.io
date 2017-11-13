@@ -7,7 +7,7 @@ body {
 .droplink {
   position: static;
   text-align: center;
-  color: rgb(51, 212, 101);
+  color: rgb(45, 171, 30);
   font-size: 30px;
   cursor: pointer;
 }
@@ -33,4 +33,22 @@ body {
 
 .droplink li a:hover {
   background-color: #999;
+  text-decoration: underline;
+}
+
+.link a:link {
+  color: rgb(45, 171, 30);
+  font-size: 35px;
+  margin: auto;
+  padding-top: 15;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: rgb(45, 171, 30);
+  text-decoration: underline;
+}
+
+.link a:visited {
+  color: rgb(45, 171, 30);
 }
