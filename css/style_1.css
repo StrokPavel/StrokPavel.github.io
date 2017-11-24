@@ -11,7 +11,6 @@ body {
   max-height: 190px;
   max-width: 300px;
   margin: auto;
-  padding-bottom: auto;
 }
 
 #img-up{
@@ -19,6 +18,7 @@ body {
   border-radius:15%;
   height: 170px;
   margin: auto;
+  padding-bottom: top;
 }
 
 #iconlink{
@@ -41,10 +41,15 @@ body {
   text-decoration: none;
 }
 
-.link a:hover{
+.link a:visited{
+  color: rgb(45, 171, 30);
+}
+
+.link a:hover {
+  color: rgb(45, 171, 30);
   text-decoration: underline;
 }
 
-.link a:visited{
+.link a:visited {
   color: rgb(45, 171, 30);
 }

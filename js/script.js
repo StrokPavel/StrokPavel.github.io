@@ -6,7 +6,18 @@ function down() {
   if (a.style.display == 'block')
     a.style.display = 'none';
 };
-
+/*
+$(document).ready(function(){
+  $("#dropdown").onclick(function down(){
+    if ($("dropdown a").css('display') == 'none')
+    $("#dropdown a").css('display','block');
+    else
+    if ($("#dropdown a").css('display') == 'block')
+    $("#dropdown a").css('display','none');
+  })
+})
+*/
+ /*Script for new window*/
 var win = null;
 
 function NewWindow(mypage,myname,w,h,scroll){

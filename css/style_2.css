@@ -36,19 +36,14 @@ body {
   text-decoration: underline;
 }
 
-.link a:link {
+.temp {
   color: rgb(45, 171, 30);
-  font-size: 35px;
+  list-style-type: disc;
+}
+
+.temp {
+  color: rgb(45, 171, 30);
+  font-size: 20px;
   margin: auto;
   padding-top: 15;
-  text-decoration: none;
-}
-
-.link a:hover {
-  color: rgb(45, 171, 30);
-  text-decoration: underline;
-}
-
-.link a:visited {
-  color: rgb(45, 171, 30);
 }
